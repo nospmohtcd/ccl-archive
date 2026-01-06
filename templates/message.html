@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Message View</title>
+    <style>
+        body { font-family: monospace; white-space: pre-wrap; background: #f4f4f4; padding: 30px; }
+        .meta { font-family: sans-serif; background: #eee; padding: 10px; margin-bottom: 20px; border-left: 5px solid #333; }
+    </style>
+</head>
+<body>
+    <div class="meta">
+        <strong>Archive Date:</strong> {{ msg.year }}/{{ msg.month }}/{{ msg.day_file }}<br>
+        <a href="/">← Back to Search</a>
+    </div>
+    <div class="content">{{ msg.content }}</div>
+</body>
+</html>
