@@ -1,5 +1,5 @@
 # ccl-archive
-A simple set of utility tools for creating a local copy, for academic use, of the Computational Chemistry List mailing archive (https://server.ccl.net/cca/archived-messages/). These tools include downloading the original messages, creating a simple SQLite representation, and a trivial web frontend for local exploration.
+A simple set of utility tools for creating a local copy, for personal academic use, of the Computational Chemistry List mailing archive (https://server.ccl.net/cca/archived-messages/). These tools include downloading the original messages, creating a simple SQLite representation, and a trivial web frontend for local exploration.
 
 ## download.py
 This will fetch messages from https://server.ccl.net/cca/archived-messages/ iterating over years, then months, then messages. A local CCL_Archive folder is created that mirrors the indexing of year, month, and which contains found messages.
