@@ -11,7 +11,9 @@ A simple utility routine that moves items from CCL_Archive with name {91, ..., 9
 Builds an SQLite databse (ccl_archive.db) from the data found in CCL_Archive
 
 ## app.py
-Uses Flask to build a simple web frontend to the SQLite. HTML templates can be found in template
+Uses Flask to build a simple web frontend to the SQLite database that you can consume via your database of choice (default local access point: http://localhost:5001/)
+
+HTML templates can be found in template
 
 ccl-archive:
 * ccl_archive.db            # Your SQLite DB
